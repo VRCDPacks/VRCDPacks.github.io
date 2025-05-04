@@ -32,7 +32,6 @@ html, body {
 }
     
 
-/* === Custom Scrollbar for Body Only === */
 body::-webkit-scrollbar {
     width: 8px;
 }
@@ -51,7 +50,6 @@ body {
     scrollbar-color: #8A2BE2 transparent;
 }
 
-/* === Layout Container === */
 .container {
     min-height: 100dvh;
     padding: 3rem 1rem;
@@ -63,13 +61,12 @@ body {
     overflow: hidden;
 }
 
-/* === Glassy Panel === */
 .uhidkwhattocallthis {
     background: var(--transparentthingy);
     border-radius: 20px;
     padding: 2rem;
     width: 100%;
-    max-width: 900px; /* Limits the text container width */
+    max-width: 900px;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.08);
@@ -77,11 +74,9 @@ body {
     text-align: center;
     position: relative;
     overflow: visible;
-    margin: 0 auto; /* Centers the container */
+    margin: 0 auto;
 }
 
-
-/* === Decorative Glow === */
 .uhidkwhattocallthis::before {
     content: '';
     position: absolute;
@@ -92,7 +87,7 @@ body {
     background: radial-gradient(circle at center, rgba(255, 255, 255, 0.05), transparent 70%);
     transform: rotate(30deg);
     pointer-events: none;
-    z-index: -1; /* Ensure it's behind the content */
+    z-index: -1;
 }
 
 .logo {
@@ -132,15 +127,15 @@ p {
 }
 
 .orbgoglowyyes {
-    position: fixed; /* Changed from absolute to fixed */
+    position: fixed;
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    filter: blur(100px); /* Increased for smoother glow */
+    filter: blur(100px);
     opacity: 0.15;
-    z-index: 0; /* Behind content but not -1 to avoid visual bugs */
-    pointer-events: none; /* Prevent accidental hover/click effects */
-    will-change: transform; /* Optimize animation */
+    z-index: 0;
+    pointer-events: none;
+    will-change: transform;
 }
 
 .orb-1 {
@@ -175,7 +170,6 @@ p {
     border: 1px solid rgba(138, 43, 226, 0.3);
 }
 
-/* === Links and Buttons === */
 a {
     color: var(--blue);
     text-decoration: none;
@@ -238,7 +232,6 @@ a:hover::after {
     border-color: rgba(138, 43, 226, 0.3);
 }
 
-/* === Footer === */
 .footer-content {
     background-color: #0B0C10;
     text-align: center;
@@ -251,7 +244,6 @@ footer p {
     color: rgba(255, 255, 255, 0.6);
 }
 
-/* === Info List === */
 .info {
     text-align: center;
     margin-top: 2rem;
