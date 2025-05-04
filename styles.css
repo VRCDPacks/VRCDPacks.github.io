@@ -27,7 +27,6 @@
     overflow-y: auto;
   }
   
-  /* Scrollbar */
   body::-webkit-scrollbar {
     width: 8px;
   }
@@ -227,7 +226,6 @@
     margin-left: -1.2em;
   }
   
-  /* 🌐 Mobile Styles */
   @media (max-width: 768px) {
     .uhidkwhattocallthis {
       max-width: 95%;
@@ -251,4 +249,3 @@
       font-size: 1rem;
     }
   }
-  
