@@ -256,20 +256,8 @@ footer p {
     text-align: center;
     margin-top: 2rem;
 }
-.how-to-list {
-    display: inline-block;
-    text-align: left;
-    padding: 10px;
-}
-.how-to-list ol {
-    padding-left: 20px;
-    list-style: none;
-}
-.how-to-list li {
-    margin-bottom: 10px;
-    font-size: 1.1rem;
-    line-height: 1.6;
-}
+
+
 .how-to-list li::before {
     content: "✔";
     color: transparent;
@@ -282,6 +270,37 @@ footer p {
     width: 1.2em;
     margin-left: -1.2em;
 }
+
+.how-to-list li::before {
+    content: "✔";
+    color: transparent;
+    background: linear-gradient(135deg, #8A2BE2, #00BFFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 0 0 10px rgba(138, 43, 226, 0.6), 0 0 20px rgba(0, 191, 255, 0.6);
+    font-weight: bold;
+    display: inline-block;
+    width: 1.2em;
+    margin-left: -1.2em;
+}
+
+.how-to-list {
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+}
+.how-to-list ol {
+    padding-left: 20px;
+    list-style: none;
+}
+
+
+.how-to-list li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
 
 body::before {
     content: '';
