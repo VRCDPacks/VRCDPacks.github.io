@@ -56,3 +56,9 @@ function toggleDeleteUserForm() {
   const form = document.getElementById('deleteUserForm');
   form.style.display = form.style.display === 'none' ? 'block' : 'none';
 }
+
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RLQN4T7679');
