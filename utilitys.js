@@ -40,7 +40,6 @@ function handleSecurityFeatures() {
 
 document.addEventListener('DOMContentLoaded', handleSecurityFeatures);
 
-// UI Helpers
 function showMessage(message, color = 'green') {
   const messageDiv = document.getElementById('message');
   messageDiv.textContent = message;
