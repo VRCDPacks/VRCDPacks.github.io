@@ -56,18 +56,3 @@ function toggleDeleteUserForm() {
   const form = document.getElementById('deleteUserForm');
   form.style.display = form.style.display === 'none' ? 'block' : 'none';
 }
-
-// Shortcut: Ctrl + L for login page
-
-
-/*document.addEventListener("keydown", (event) => {
-  const keys = {
-    ctrl: event.ctrlKey,
-    l: event.key.toLowerCase() === 'l',
-  };
-
-  if (keys.ctrl && keys.l && event.code === "KeyL") {
-    event.preventDefault();
-    window.location.href = "login.html";
-  }
-});*/
