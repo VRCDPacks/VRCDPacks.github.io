@@ -227,15 +227,15 @@
     border: 1px solid rgba(138, 43, 226, 0.3);
   }
   
-  a {
-    color: var(--blue);
+   a {
+    color: var(--purple); 
     text-decoration: none;
     transition: all 0.3s ease;
   }
   a:hover {
-    color: var(--hoverpurple);
+    color: var(--hoverpurple); 
     text-shadow: 0 0 8px rgba(138, 43, 226, 0.5);
-  }
+  }   
   
   .button {
     position: relative;
@@ -275,7 +275,10 @@
     100% { transform: rotate(360deg); }
   }
   
-
+  .tutorial-btn {
+    margin-top: 10px; /* Adjusted to fit within the list */
+  }
+  
 
   .info {
     text-align: center;
