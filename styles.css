@@ -238,6 +238,9 @@
   }
   
   .button {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
     display: inline-block;
     padding: 1rem 2.5rem;
     background: var(--transparentthingy);
@@ -252,14 +255,28 @@
     width: 100%;
     max-width: 300px;
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform-style: preserve-3d;
+  }
+  
+  
+  .button span {
+    position: relative;
+    z-index: 1;
   }
   
   .button:hover {
     box-shadow: 0 0 20px rgba(138, 43, 226, 0.5), 0 0 30px rgba(0, 191, 255, 0.3);
-    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
-    border-color: rgba(138, 43, 226, 0.3);
+    transform: perspective(800px) rotateX(6deg) rotateY(6deg) scale(1.05);
   }
   
+  @keyframes rotateBorder {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+
+
   .info {
     text-align: center;
     margin-top: 2rem;
