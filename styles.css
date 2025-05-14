@@ -276,7 +276,7 @@
   }
   
   .tutorial-btn {
-    margin-top: 10px; /* Adjusted to fit within the list */
+    margin-top: 10px; 
   }
   
 
@@ -404,7 +404,7 @@
     top: 20px;
     right: 20px;
     font-size: 14px;
-    color: #ffffffaa; /* semi-transparent white */
+    color: #ffffffaa;
     text-decoration: none;
     z-index: 1000;
     font-weight: 500;
@@ -416,7 +416,6 @@
     text-decoration: underline;
   }
   
-  /* Discord Overlay Button and Widget */
 .discord-overlay {
   position: fixed;
   bottom: 20px;
@@ -489,7 +488,6 @@
   text-shadow: 0 0 10px var(--hoverpurple);
 }
 
-/* Style for the login button */
 #loginForm button {
   padding: 1rem 2.5rem;
   background: linear-gradient(135deg, #8a2be2, #00bfff);
@@ -521,7 +519,6 @@
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
-/* Style for the input fields to match the button */
 #loginForm input {
   width: 100%;
   padding: 1rem;
